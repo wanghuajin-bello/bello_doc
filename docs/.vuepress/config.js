@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'MakaUI',
+  title: 'Bello前端文档',
   base: '/maka-ui/',
   description: 'another lightweight ui toolkit for Vue.js 2.X',
   port: 8083, 
@@ -7,7 +7,9 @@ module.exports = {
     nav: [
       { text: '主页', link: '/' },
       { text: '组件', link: '/component/guide/introduction' },
-      { text: '主题', link: '/theme/' },
+      { text: '工具函数', link: '/utils/guide/guide' },
+      // { text: '接口规范', link: '/theme/' },
+      // { text: '知识库', link: '/theme/' },
       // { text: 'External', link: 'https://google.com' },
     ],
     sidebar: {
@@ -26,6 +28,32 @@ module.exports = {
           children: [
             'basic/button',
             'basic/form',
+            'basic/no-data',
+          ]
+        },
+        {
+          title: '业务组件',
+          collapsable: false,
+          children: [
+            'basic/button',
+            'basic/form',
+            'basic/no-data',
+          ]
+        }
+      ],
+      '/utils/': [
+        {
+          title: '通用方法',
+          collapsable: false,
+          children: [
+            'common/common'
+          ]
+        },
+        {
+          title: '请求封装',
+          collapsable: false,
+          children: [
+            'request/request'
           ]
         }
       ]

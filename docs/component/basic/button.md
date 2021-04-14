@@ -14,17 +14,18 @@ export default {
 </script>
 
 <template>
-  <mk-button>{{button}}</mk-button>
-  <mk-button type="primary">主色</mk-button>
-  <mk-button type="success">成功</mk-button>
-  <mk-button type="info">提示</mk-button>
+  <bl-button>{{button}}</bl-button>
+  <bl-button type="primary">主色</bl-button>
+  <bl-button type="success">成功</bl-button>
+  <bl-button type="info">提示</bl-button>
+  <bl-no-data :visible="true" text="无数据页面"></bl-no-data>
 </template>
 
 
 ### 使用
 ```html
-<mk-button>默认</mk-button>
-<mk-button type="primary">主色</mk-button>
-<mk-button type="success">成功</mk-button>
-<mk-button type="info">提示</mk-button>
+<bl-button>默认</bl-button>
+<bl-button type="primary">主色</bl-button>
+<bl-button type="success">成功</bl-button>
+<bl-button type="info">提示</bl-button>
 ```

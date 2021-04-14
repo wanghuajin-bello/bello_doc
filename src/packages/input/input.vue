@@ -1,8 +1,8 @@
 <template>
-  <div class="mk-input-container">
+  <div class="bl-input-container">
     <input
       type="text"
-      class="mk-input"
+      class="bl-input"
       :value="currentValue"
       :class="inputClass"
       @input="handleInput"
@@ -41,7 +41,7 @@ export default {
   },
   computed: {
     inputClass() {
-      const prefix = "mk-input";
+      const prefix = "bl-input";
       return {
         [`${prefix}__size-${this.size}`]: true,
       };

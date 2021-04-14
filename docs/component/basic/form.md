@@ -38,15 +38,15 @@ export default {
 }
 </script>
 <template>
-  <mk-form ref="form" :model="form" :rules="rules">
-    <mk-form-item label="用户名" prop="name">
-      <mk-input v-model="form.name"></mk-input>
-    </mk-form-item>
-    <mk-form-item label="邮箱" prop="email">
-      <mk-input v-model="form.email"></mk-input>
-    </mk-form-item>
-    <mk-button @click.native="doValidate" style="margin-top:20px" type="primary">触发验证表单</mk-button>
-  </mk-form>
+  <bl-form ref="form" :model="form" :rules="rules">
+    <bl-form-item label="用户名" prop="name">
+      <bl-input v-model="form.name"></bl-input>
+    </bl-form-item>
+    <bl-form-item label="邮箱" prop="email">
+      <bl-input v-model="form.email"></bl-input>
+    </bl-form-item>
+    <bl-button @click.native="doValidate" style="margin-top:20px" type="primary">触发验证表单</bl-button>
+  </bl-form>
 </template>
 
 ```vue
@@ -83,14 +83,14 @@ export default {
 }
 </script>
 <template>
-  <mk-form ref="form" :model="form" :rules="rules">
-    <mk-form-item label="用户名" prop="name">
-      <mk-input v-model="form.name"></mk-input>
-    </mk-form-item>
-    <mk-form-item label="邮箱" prop="email">
-      <mk-input v-model="form.email"></mk-input>
-    </mk-form-item>
-    <mk-button @click.native="doValidate" style="margin-top:20px" type="primary">触发验证表单</mk-button>
-  </mk-form>
+  <bl-form ref="form" :model="form" :rules="rules">
+    <bl-form-item label="用户名" prop="name">
+      <bl-input v-model="form.name"></bl-input>
+    </bl-form-item>
+    <bl-form-item label="邮箱" prop="email">
+      <bl-input v-model="form.email"></bl-input>
+    </bl-form-item>
+    <bl-button @click.native="doValidate" style="margin-top:20px" type="primary">触发验证表单</bl-button>
+  </bl-form>
 </template>
 ```

@@ -2,12 +2,14 @@ import Button from './packages/button'
 import Form from './packages/form'
 import FormItem from './packages/form-item'
 import Input from './packages/input'
+import NoData from './packages/no-data'
 
 const components = {
-  mkButton: Button,
-  mkForm: Form,
-  mkFormItem: FormItem,
-  mkInput: Input,
+  blButton: Button,
+  blForm: Form,
+  blFormItem: FormItem,
+  blInput: Input,
+  blNoData: NoData
 }
 
 const install = function (Vue, options = {}) {

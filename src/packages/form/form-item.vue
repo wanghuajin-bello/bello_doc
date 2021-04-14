@@ -1,10 +1,10 @@
 <template>
   <div>
-    <div v-if="label" :class="{ 'mk-form-item__label-required': isRequired }">
+    <div v-if="label" :class="{ 'bl-form-item__label-required': isRequired }">
       {{ label }}
     </div>
     <slot></slot>
-    <div v-if="validateState === 'error'" class="mk-form-item__error">
+    <div v-if="validateState === 'error'" class="bl-form-item__error">
       {{ validateMessage }}
     </div>
   </div>
