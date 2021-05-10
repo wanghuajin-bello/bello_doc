@@ -1,6 +1,6 @@
 module.exports = {
   title: 'Bello前端文档',
-  base: '/maka-ui/',
+  base: '/bello-ui/',
   description: 'another lightweight ui toolkit for Vue.js 2.X',
   port: 8083, 
   themeConfig: {

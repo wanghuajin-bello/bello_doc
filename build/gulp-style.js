@@ -10,7 +10,7 @@ function buildCss(cb) {
     .pipe(sass())
     .pipe(autoprefixer())
     .pipe(cleanCSS())
-    .pipe(rename('maka-ui.css'))
+    .pipe(rename('bello-ui.css'))
     .pipe(gulp.dest('../lib/styles'));
   cb()
 }

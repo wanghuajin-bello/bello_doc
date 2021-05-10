@@ -3,9 +3,9 @@ title: 开发指南
 ---
 # 开始
 
-输入下列命令可以安装maka-ui
+输入下列命令可以安装bello-ui
 ```
-npm install maka-ui  --save
+npm install bello-ui  --save
 ```
 # 组件规范
 

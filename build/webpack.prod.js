@@ -15,8 +15,8 @@ module.exports = merge(webpackBaseConfig, {
   output: {
     path: path.resolve(__dirname, '../lib'),
     publicPath: "/lib/",
-    filename: 'maka-ui.min.js',
-    library: 'maka-ui',
+    filename: 'bello-ui.min.js',
+    library: 'bello-ui',
     libraryTarget: 'amd',
     umdNamedDefine: true
   },
